@@ -98,6 +98,12 @@ nav ul li a:hover {
  
   color: rgb(0, 0, 0);
 }
+#menu-icon {
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+
 /*Banner imagenes*/
 
 .container {
@@ -168,4 +174,52 @@ h2 {
 .large {
   grid-column: span 3;
   border-radius: 20px;
+}
+@media (max-width: 1280px){
+  header{
+    padding: 14px 2%;
+    transition: .2s;
+  }
+  .navbar a{
+    padding: 5px 0;
+    margin: 0 20px;
+  }
+}
+@media (max-width: 1090px){
+  #menu-icon{
+    display: block;
+    position: absolute;
+   top: 30px;
+   right: 143px;
+   
+  }
+ 
+ .barra-nav:not(#menu-icon){
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    width: 270px;
+    height: 40vh;
+    background-color: #fa713b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+  
+    border-radius: 10px;
+    transition: all .50s ease;
+  }
+  .barra-nav a{
+    display: block;
+    margin: 12px 0;
+    padding: 0 25px;
+    transform: all .50s ease;
+  }
+  .barra-nav a:hover{
+    color: black;
+    transform: translateY(5px);
+  }
+  .barra-nav a:active{
+    color: black;
+  }
 }
