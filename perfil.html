@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style-perfil.css" />
+    <title>PERFIL</title>
+  </head>
+
+  <body>
+    <header>
+     
+      <div id="logo">
+        <i class='bx bxs-pizza'></i>
+        <h1><a href="index.html"> Delipizza</a></h1>
+      </div>
+    </header>
+    <nav class="navbar">
+      <ul class="barra-nav">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="perfil.html">PERFIL</a></li>
+      </ul>
+      <div class="iconos">
+        <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
+        <a href="carrito.html" class="carrito"
+          ><i class="ri-shopping-cart-2-fill"></i
+        ></a>
+      </div>
+    </nav>
+    <section id="grid">
+      <div class="contenedor">
+        <div class="columnas">
+          <div class="perfil">
+            <div class="info-user">
+              <h2 class="informacion-usuario">Informacion usuario</h2>
+              <form action="" class="form">
+                <label class="nombre" for="nombre">Nombre</label>
+                <label for="apellido" class="apellido">Apellido</label><br />
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="John Doe"
+                  required
+                />
+                <input
+                  type="text"
+                  name="apellido"
+                  id="apellido"
+                  placeholder="Fulano Detal"
+                  required
+                /><br />
+                <label for="email" class="email">Email</label><br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="email"
+                  placeholder="correo-usuario@algo.com"
+                /><br />
+                <label class="telefono" for="telefono">Telefono</label>
+                <label for="metodo-pago" class="metodopago"
+                  >Metodo de pago</label
+                ><br />
+                <input
+                  type="text"
+                  id="telefono"
+                  name="telefono"
+                  placeholder="314568485"
+                  required
+                />
+                <select name="medio-pago" id="medio-pago">
+                  <option value="none">--seleccione una opcion--</option>
+                  <option value="nequi">Nequi</option>
+                  <option value="Efectivo">Efectivo</option>
+                </select>
+                <input
+                  class="enviar"
+                  type="submit"
+                  value="Editar informacion"
+                />
+              </form>
+            </div>
+            <div class="img">
+              <figure>
+                <figcaption>Cliente #xxxx</figcaption>
+                <img class="img-perfil" src="img/person.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="columnas">
+          <h3>Historial de pedidos</h3>
+          <div class="tabla-h">
+            <table class="tabla-historial">
+              <tr class="pedido-n1">
+                <th>PedidoNXXXXX</th>
+                <th>cantidad </th>
+                <th>Fecha </th>
+                
+              </tr>
+              <tr>
+                <td>Pizza XXXX</td>
+                <td>3</td>
+                <td>18-09-20xx</td>
+
+              </tr>
+              <tr>
+                <td>Hamburguesa 21</td>
+                <td>2</td>
+                <td>18-09-20xx</td>
+              </tr>
+              <tr>
+             
+            </table>
+            <table class="tabla-historial">
+              <tr class="pedido-n1">
+                <th>PedidoNXXXXX</th>
+                <th>cantidad </th>
+                <th>Fecha </th>
+                
+              </tr>
+              <tr>
+                <td>Pizza XXXX</td>
+                <td>3</td>
+                <td>18-09-20xx</td>
+
+              </tr>
+              <tr>
+                <td>Hamburguesa 21</td>
+                <td>2</td>
+                <td>18-09-20xx</td>
+              </tr>
+              <tr>
+                <td>Salchipapa E</td>
+                <td>2</td>
+                <td>18-09-20xx</td>
+              </tr>
+              <tr>
+                <td>perro32</td>
+                <td>1</td>
+                <td>18-09-20xx</td>
+              </tr>
+            </table>
+            <table class="tabla-historial">
+              <tr class="pedido-n">
+                <th>PedidoNXXXXX</th>
+                <th>cantidad </th>
+                <th>Fecha </th>
+                
+              </tr>
+              <tr>
+                <td>Pizza XXXX</td>
+                <td>3</td>
+                <td>18-09-20xx</td>
+
+              </tr>
+              <tr>
+                <td>Hamburguesa 21</td>
+                <td>2</td>
+                <td>18-09-20xx</td>
+              </tr>
+              <tr>
+                <td>perro32</td>
+                <td>1</td>
+                <td>18-09-20xx</td>
+              </tr>
+            </table>
+            <table class="tabla-historial">
+              <tr class="pedido-n">
+                <th>PedidoNXXXXX</th>
+                <th>cantidad </th>
+                <th>Fecha </th>
+                
+              </tr>
+              <tr>
+                <td>Pizza XXXX</td>
+                <td>3</td>
+                <td>18-09-20xx</td>
+
+              </tr>
+              <tr>
+                <td>Hamburguesa 21</td>
+                <td>2</td>
+                <td>18-09-20xx</td>
+              </tr>
+              <tr>
+                <td>perro32</td>
+                <td>1</td>
+                <td>18-09-20xx</td>
+              </tr>
+            </table>
+        
+        
+          </div>
+        </div>
+        <div class="columnas">
+            <div class="pedidos-en-curso">
+              <h3>Pedidos actuales</h3>
+              <table class="pedidos-actuales">
+                <tr class="pedido-a">   
+                  <th  >Pedido Nxxxx</th>
+                  <th>Producto</th>
+                  <th>Estado</th>
+                </tr>
+                
+                <tr>
+                  <td class="img-table2" > <img src="pizza prueba.jfif" alt="" class="img-table"></td>
+                  <td>Pizza tananta</td>
+                  <td >En preparacion</td>
+                </tr>
+                <tr>
+                  <td class="img-table2" > <img src="pizza prueba.jfif" alt="" class="img-table"></td>
+                  <td>Pizza panaglia</td>
+                  <td >Listo</td>
+                </tr>
+                
+              </table>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
