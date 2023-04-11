@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 header {
   position: fixed;
   width: 100%;
@@ -102,79 +106,58 @@ nav ul li a:hover {
 nav ul li a:hover {
   color: black;
 }
-body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
 
 #principal {
   width: 40%;
-  height: fit-content;
+
   margin: 0 auto;
-  margin-top: 14rem;
-  margin-left: 34rem;
+  margin-top: 160px;
+  border: 1px solid black;
   border-radius: 10px;
-  background-color: #fa713b;
-  color: white;
-  overflow: hidden;
-
 }
-.contenido {
-  padding: 20px;
-  color: white;
-  width: 100%;
-  margin: 0 auto;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". nombre-producto-precio nombre-producto-precio"
+    "img formulario-producto formulario-producto"
+    ". formulario-producto formulario-producto"
+    ". total total";
+}
+
+.img {
+  grid-area: img;
+}
+.pedido {
+  width: 200px;
+}
+.total {
+  grid-area: total;
+}
+.nombre-producto-precio {
+  grid-area: nombre-producto-precio;
+}
+.nombre-producto-precio h2 {
   text-align: center;
+  margin: 20px;
 }
-input {
-  width: 40px;
-  height: 1.4rem;
-  font-size: 1rem;
-}
-.titulo,
-.subtitulo {
-  text-align: center;
-}
-label {
-  font-size: 25px;
-}
-.titulo {
-  font-size: 2rem;
-  margin-top: 20px;
-}
-.subtitulo {
-  font-size: 1rem;
+.formulario-producto {
+  grid-area: formulario-producto;
 }
 
-.adicion {
-  margin-right: 3rem;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form div {
+  font-size: 4vh;
+  border-bottom: 2px solid rgb(165, 165, 165);
 }
 
-.button {
-  background-color: whitesmoke;
-  width: fit-content;
-  margin: 0 auto;
-  font-size: xx-large;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border-radius: 15px;
-  border: none;
-  box-shadow: 5px 5px;
-  color: black;
-}
-.button a {
-  text-decoration: none;
-  color: black;
-}
-.button a:hover {
-  color: #fa713b;
-}
-
-.producto {
-  width: 20rem;
-  margin: 0;
-  margin-left: 10rem;
-
-  float: left;
-  border-radius: 12px;
+.total input{
+  
 }
