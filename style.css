@@ -208,33 +208,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 
 
 }
-/*
 
-.silder-wrapper {
-  position: relative;
-  max-width: 48rem;
-  margin: 0 auto;
-  border-radius: 10%;
-}
-
-.slider {
-  display: flex;
-  aspect-ratio: 16 / 9;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-}
-.slider img {
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
-}
-
-h2 {
-  text-align: center;
-}
-*/
 /*Grid promociones*/
 #promociones {
   width: 60%;
