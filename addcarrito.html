@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <title>Delipizza</title>
     <link rel="stylesheet" href="style-add-carrito.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -26,9 +27,9 @@
     </header>
     <nav class="navbar">
       <ul class="barra-nav">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="menu.html">MENU</a></li>
-        <li><a href="perfil.html">PERFIL</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
       </ul>
       <div class="iconos">
         <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
@@ -50,41 +51,42 @@
           
         </div>
         <div class="formulario-producto">
-          <form action="" class="formulario2" >
+          <form action="carrito.html" class="formulario2" >
          <ul>
           <div class="extra1">
-            <input type="checkbox" name="" id="extra1">
+            <input type="checkbox" name="" id="extra1" class="check">
             <label for="extra1" >Extra salchicha</label>
           
           </div>
           <div class="extra2">
-            <input type="checkbox" name="" id="extra2">
+            <input type="checkbox" name="" id="extra2" class="check">
             <label for="extra2" class="extra2">Extra salsa</label>
         
           </div>
           <div class="extra3">
-            <input type="checkbox" name="" id="extra3">
+            <input type="checkbox" name="" id="extra3" class="check">
             <label for="extra3" class="extra3">Extra mortadela</label>
      
           </div>
           <div class="extra4">
-            <input type="checkbox" name="" id="extra4">
-            <label for="extra4" class="extra4">Extra tocineta</label>
+            <input type="checkbox" name="" id="extra4" class="check">
+            <label for="extra4" class="extra4">Extra tocineta</label l>
         
           </div>
-
-          
+    
          </ul>
          
-    
-        
-
+         <div class="total">
+          <label for="total">Total</label>
+            <input type="number" name="total" id="total" max="10" min="0" value="1">
+        </div>
+        <div class="btn-enviar">
+          <button class="enviar">ENVIAR</button>
+        </div>
           </form>
         </div>
         
-        <div class="total">
-            <input type="number" name="total" id="total" max="10" min="0" value="1">
-        </div>
+    
       </div>
     </section>
   </body>

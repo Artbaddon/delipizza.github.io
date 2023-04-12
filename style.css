@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +8,7 @@
 
 body {
   min-height: 100vh;
-
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #ece4e3;
 }
 /* Header and nav bar*/
 
@@ -26,7 +21,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   height: 4.3rem;
 }
 header a {
@@ -80,7 +75,7 @@ nav ul li a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .iconos {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .iconos a {
   text-decoration: none;
@@ -209,6 +204,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 
 }
 
+
 /*Grid promociones*/
 #promociones {
   width: 60%;
@@ -245,6 +241,58 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 .large {
   grid-column: span 3;
   border-radius: 20px;
+}
+
+
+
+footer{
+  background-color: rgb(100, 100, 100);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+footer p{
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+}
+footer img{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+.texf{
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+.copi{
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.footer1 {
+  display: inline;
+  font-family: "Caveat", cursive;
+  padding-top: 50px;
+  font-size: 50px;
+
+}
+#l-footer{
+  display: flex;
+  position: absolute;
+  left: 160px;
+ 
+}
+h2{
+  text-align: center;
 }
 @media (max-width: 1280px) {
   header {

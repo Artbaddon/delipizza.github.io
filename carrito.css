@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  color: white;
+  
 }
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(0, 0, 0,.3);
+  
 }
 section {
   width: 60%;
@@ -109,7 +111,7 @@ h2 {
   padding: 20px;
 }
 .pago {
-  background-color: #fa713b;
+  background-color: white;
   margin-top: 260px;
   border-radius: 10px;
   width: 37%;
@@ -118,14 +120,14 @@ h2 {
   box-shadow: rgb(240, 239, 239) 5px 5px;
 }
 button {
-  background-color: #fa713b;
+  background-color: darkgreen;
   border: 0;
 }
 .pago img {
   width: 100px;
 }
 .Pedidos {
-  background-color: #fa713b;
+  background-color: white;
   margin-top: 260px;
   border-radius: 10px;
   width: 60%;

@@ -34,25 +34,26 @@
         ></a>
       </div>
     </nav>
+
     <div id="container">
       <div class="navbar2">
         <div class="user-p-container">
           <img src="img/person.svg" alt="" class="user-photo" />
-          <figcaption>User img</figcaption>
-        </div>
+          <figcaption>Nombre Cliente</figcaption>
+        </div><br>
         <ul class="profile-items">
           <li class="profile-item">
             <a href="#categoria-perfil" class="nav-hiper">
               <i class="bx bxs-cog"></i>
               Ajustes cuenta
             </a>
-          </li>
+          </li><br>
           <li class="profile-item">
             <a href="#categoria-perfil" class="nav-hiper">
               <i class="bx bxs-hourglass-top"></i>
               Pedidos actuales
             </a>
-          </li>
+          </li><br>
           <li class="profile-item">
             <a href="#pedido-en-curso" class="nav-hiper">
               <i class="bx bx-history"></i>
@@ -105,6 +106,7 @@
                 value="3101233211"
                 required
                 size="10"
+                maxlength="10"
               />
             </div>
             <div class="input-bx5 caja">
@@ -130,7 +132,7 @@
             </div>
             <div class="submit-btn">
               <a href="perfil.html">
-                <input type="submit" value="Actualizar informacion" />
+               <button class="actualizar-info">Actualizar</button> 
               </a>
             </div>
           </form>

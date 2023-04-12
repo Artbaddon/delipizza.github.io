@@ -9,6 +9,7 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 header {
   position: fixed;
   width: 100%;
@@ -21,14 +22,17 @@ header {
   font-size: 1.4rem;
   height: 4.3rem;
 }
+
 header a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
 header h1 {
   display: inline;
   font-family: "Caveat", cursive;
 }
+
 .bxs-pizza {
   color: white;
   display: inline;
@@ -44,16 +48,20 @@ nav {
   justify-content: center;
   background-color: #fa713b;
 }
+
 .barra-nav {
   display: flex;
   margin-bottom: 1px;
 }
+
 .barra-nav a {
   padding: 0rem 4rem;
   font-size: 1.8rem;
+
   margin: 0;
   transition: all 0.5s ease;
 }
+
 nav ul {
   list-style-type: none;
 }
@@ -69,9 +77,11 @@ nav ul li a {
 
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .iconos {
   font-size: 1.4rem;
 }
+
 .iconos a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -82,9 +92,11 @@ nav ul li a {
 .iconos a:hover {
   color: rgb(0, 0, 0);
 }
+
 nav ul li a:hover {
   color: rgb(0, 0, 0);
 }
+
 #container {
   width: 90%;
   height: fit-content;
@@ -99,15 +111,19 @@ nav ul li a:hover {
     ". pedidos-en-curso pedidos-en-curso pedidos-en-curso"
     ". tabla-h tabla-h tabla-h";
 }
+
 .navbar2 {
   grid-area: navbar2;
 }
+
 .categoria-perfil {
   grid-area: categoria-perfil;
 }
+
 .pedidos-en-curso {
   grid-area: pedidos-en-curso;
 }
+
 .tabla-h {
   grid-area: tabla-h;
 }
@@ -116,28 +132,38 @@ nav ul li a:hover {
 .navbar2 ul {
   list-style-type: none;
 }
+
 .navbar2 ul li {
   padding: 10px 40px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 3vh;
-  border-bottom: 1px solid #fa713b;
+  box-shadow: rgb(0, 0, 0) 5px 5px;
+  border-radius: 20px;
+
   background-color: #adadad;
 }
+
 .navbar2 ul li a {
   text-decoration: none;
   color: black;
 }
+
 .navbar2 ul li a:hover:not(i) {
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   transition: all 0.5s ease;
   color: white;
 }
+
 .user-p-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   background-color: #fa713b;
+  box-shadow: rgb(0, 0, 0) 5px 5px;
+  border: solid rgb(0, 0, 0) 2px;
+  border-radius: 20px;
+
 }
 
 .user-photo {
@@ -147,12 +173,13 @@ nav ul li a:hover {
 .categoria-perfil,
 .pedidos-en-curso,
 .tabla-h {
- 
-  border: 1px solid black;
+  box-shadow: rgb(0, 0, 0) 5px 5px;
+  border: solid rgb(0, 0, 0) 2px;
   border-radius: 20px;
   height: 100%;
   background-color: rgb(248, 115, 63, 60%);
 }
+
 .tabla-h,
 .pedidos-en-curso {
   overflow-y: auto;
@@ -166,8 +193,6 @@ nav ul li a:hover {
 form {
   width: 60%;
   margin: 0 auto;
-
-  
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -178,51 +203,60 @@ form {
     "input-bx5 input-bx6"
     "submit-btn submit-btn";
 }
+
 .caja {
   padding: 10px 20px;
   font-size: 4vh;
   text-align: center;
 }
+
 .caja input,
-select {
-  font-size: 3.4vh;
-  border: none;
-  text-align: center;
-  border-radius: 12px;
+select,.actualizar-info
+{
+font-size: 3.2vh;
+box-shadow: rgb(0, 0, 0) 5px 5px;
+border: solid rgb(0, 0, 0) 2px;
+text-align: center;
+border-radius: 12px;
 
 }
+
+
 .input-bx {
   grid-area: input-bx;
 }
+
 .input-bx2 {
   grid-area: input-bx2;
 }
+
 .input-bx3 {
   grid-area: input-bx3;
 }
+
 .input-bx4 {
   grid-area: input-bx4;
 }
+
 .input-bx5 {
   grid-area: input-bx5;
 }
+
 .input-bx6 {
   grid-area: input-bx6;
 }
+
 .submit-btn {
   grid-area: submit-btn;
 }
-.submit-btn  {
+
+.submit-btn {
   text-align: center;
 
- 
+
 }
-.submit-btn input {
-  
-  font-size: 2vh
- 
-  
-}
+
+
 
 h3 {
   width: 100%;
@@ -236,10 +270,11 @@ h3 {
   margin: 0 auto;
   text-align: center;
 
-  border: 1px solid black;
+
   margin-bottom: 10px;
   padding: 10px;
 }
+
 .tabla-h {
   width: 100%;
   height: 90%;
@@ -248,6 +283,7 @@ h3 {
 .tabla-historial tr {
   font-size: 2.4vh;
 }
+
 .pedido-n {
   margin-bottom: 20px;
 }
@@ -257,6 +293,7 @@ h3 {
   font-size: 20px;
   border: 1px solid black;
 }
+
 .img-table2 {
   width: 20%;
 }

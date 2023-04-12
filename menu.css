@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-.grid{
+body{
+    background-color: rgb(248, 248, 248);
+}
+.grid {
     width: 100%;
     right: 0%;
     left: 0%;
 }
-a{
+.ta{
+    width: 1150px;
+    margin: 0 auto;
+    background-color: white;
+}
+a {
     color: white;
+}
+#r{
+    width: 100%;
+    height: 128px;;
 }
 header {
     position: fixed;
@@ -26,50 +37,56 @@ header {
     justify-content: center;
     font-size: 1.4rem;
     height: 4.3rem;
-  }
-  header a {
+}
+
+header a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-   
-  }
-  header h1{
+
+}
+
+header h1 {
     display: inline;
     font-family: 'Caveat', cursive;
-  
-  }
-  .bxs-pizza{
-   color: white;
-  display: inline;
-  font-size: 2rem;
-  
-      
-  }
 
-nav{
+}
+
+.bxs-pizza {
+    color: white;
+    display: inline;
+    font-size: 2rem;
+
+
+}
+
+nav {
     grid-area: nav;
     text-align: center;
     font-size: 15px;
     height: 60px;
-    background-color:  var(--theme-ui-colors-primary,#fa713b);
-    position:fixed ;
+    background-color: var(--theme-ui-colors-primary, #fa713b);
+    position: fixed;
     overflow: hidden;
-    top:66px ;
+    top: 66px;
     left: 0%;
     right: 0%;
     margin-top: 2px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     margin-left: 5%;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     padding-right: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -78,45 +95,52 @@ nav ul li a{
     padding-bottom: 25px;
     font-size: 20px;
 }
-nav ul li a:hover{
-   
+
+nav ul li a:hover {
+
     color: black;
 }
-.title{
-    margin-left:15%;
+
+.title {
+    margin-left: 2%;
     margin-top: 10px;
+    padding-top:150px;
     margin-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.menu{
+
+.menu {
     width: 100%;
     margin: 0 auto;
 }
-.pizza{
+
+.pizza {
     width: fit-content;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
-    width: 80%;
-    margin: 0 auto;
 }
-button{
+
+button {
     border: 0;
     background-color: white;
 }
-button a img{
-    
+
+button a img {
+
     border-radius: 5px;
     width: 40px;
-    
+
 }
-.carrito{
+
+.carrito {
     margin-left: 50px;
     margin-right: 50px;
 }
-.m_item{
+
+.m_item {
     display: inline-table;
-    width:15% ;
+    width: 200px;
     border-radius: 10px;
     background-color: white;
     margin: 20px;
@@ -126,53 +150,72 @@ button a img{
     border: solid rgb(240, 239, 239) 2px;
     overflow: hidden;
 }
-.img_pizza img{
-    width:200px;
+
+.img_pizza img {
+    width: 200px;
     height: 150px;
     border-radius: 5px;
-    display: inline-block; 
+    display: inline-block;
 }
- .img_pizza img:hover{
-    height: 160px;
-    width: 210px;
+
+.img_pizza img:hover {
+    transform: scale(1.05);    
+
 }
-.carrito img:hover{
-    transform: all 0.5s ease;
-    height: 40%;
-    width: 40%;
+
+.carrito img:hover {
+    transform: scale(1.1);  
 }
-footer{
+
+footer {
     background-color: rgb(100, 100, 100);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     width: 100%;
-    padding: 0;
 }
-footer p{
+
+footer p {
     display: inline-block;
     text-align: left;
     margin: 20px;
 }
-footer img{
+
+footer img {
     width: 30px;
     height: 30px;
     margin: 0 auto;
 }
-.texf{
+
+.texf {
     text-align: center;
     width: fit-content;
     margin: 0 auto;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
-.copi{
+
+.copi {
     display: flex;
     width: fit-content;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-h2{
-    text-align: center;
+
+
+
+.footer1 {
+    display: inline;
+    font-family: "Caveat", cursive;
+    padding-top: 50px;
+    font-size: 50px;
+ 
+}
+
+#l-footer{
+    display: flex;
+    position: absolute;
+    left: 160px;
 }
