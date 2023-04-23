@@ -1,139 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
-    <title>Delipizza</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-     
-      <div id="logo">
-        <i class='bx bxs-pizza'></i>
-        <h1><a href="index.html"> Delipizza</a></h1>
-        <div class="bx bx-menu" id="menu-icon"></div>
-      </div>
-    </header>
-    <nav class="navbar">
-      <ul class="barra-nav">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="perfil.html">Perfil</a></li>
-   
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+  <title>Delipizza</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+
+    <div id="logo">
+      <i class='bx bxs-pizza'></i>
+      <h1><a href="index.html"> Delipizza</a></h1>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+  <nav class="navbar">
+    <ul class="barra-nav">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="perfil.html">Perfil</a></li>
+
       <div class="iconos">
         <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
-        <a href="carrito.html" class="carrito"
-          ><i class="ri-shopping-cart-2-fill"></i
-        ></a>
-       
-      </ul>
+        <a href="carrito.html" class="carrito"><i class="ri-shopping-cart-2-fill"></i></a>
+
+    </ul>
+
+    </div>
+  </nav>
+  <section class="container">
+    <div class="contenedor-todo">
+      <input type="radio" name="slider-img" id="1" hidden>
+      <input type="radio" name="slider-img" id="2" hidden>
+      <input type="radio" name="slider-img" id="3" hidden>
+      <div class="slide">
+        <div class="item-slide">
+          <img id="img-1" src="img/pizzas slider.jpg" alt="" />
+        </div>
+        <div class="item-slide">
+          <img id="img-2" src="img/burger slider.jpg" alt="" />
+        </div>
+        <div class="item-slide">
+          <img id="img-3" src="img/hotdog slider.jpg" alt="" />
+        </div>
 
       </div>
-    </nav>
-    <section class="container">
-      <div class="contenedor-todo">
-        <input type="radio" name="slider-img" id="1" hidden>
-        <input type="radio" name="slider-img" id="2" hidden>
-        <input type="radio" name="slider-img" id="3" hidden>
-        <div class="slide">
-          <div class="item-slide">
-            <img id="img-1" src="img/pizzas slider.jpg" alt="" />
-          </div>
-          <div class="item-slide">
-            <img id="img-2" src="img/burger slider.jpg" alt="" />
-          </div>
-          <div class="item-slide">
-            <img id="img-3" src="img/hotdog slider.jpg" alt="" />
-          </div>
-        
-        </div>
-        <div class="pagination">
-          <label for="1" class="pagination-item">
-            <img  src="img/pizzas slider.jpg" alt="" />
-          </label>
-          <label for="2" class="pagination-item">
-            <img  src="img/burger slider.jpg" alt="" />
-          </label>
-          <label for="3" class="pagination-item">
-            <img  src="img/hotdog slider.jpg" alt="" />
-          </label>
-        </div>
+      <div class="pagination">
+        <label for="1" class="pagination-item">
+          <img src="img/pizzas slider.jpg" alt="" />
+        </label>
+        <label for="2" class="pagination-item">
+          <img src="img/burger slider.jpg" alt="" />
+        </label>
+        <label for="3" class="pagination-item">
+          <img src="img/hotdog slider.jpg" alt="" />
+        </label>
       </div>
-    </section>
-    <section id="promociones">
-      <h2>Promociones</h2>
-      <div class="promociones">
-        <div class="promociones-item">
-          <img src="img/promo1.jpg" alt="" class="img" />
-          <img src="img/promo2.jpg" alt="" class="img" />
-          <img src="img/promo3.jpg" alt="" class="img" />
-          <img src="img/promo3.jpg" alt="" class="img large" />
-        </div>
+    </div>
+  </section>
+  <section id="promociones">
+    <h2>Promociones</h2>
+    <div class="promociones">
+      <div class="promociones-item">
+        <img src="img/promo1.jpg" alt="" class="img" />
+        <img src="img/promo2.jpg" alt="" class="img" />
+        <img src="img/promo3.jpg" alt="" class="img" />
+        <img src="img/promo3.jpg" alt="" class="img large" />
       </div>
-    </section>
-    <footer>
-      <div id="l-footer">
-          <i class='bx bxs-pizza footer1'></i>
-          <h1 class="footer1">Delipizza</h1>
-      </div>
-      <p>Aviso Legal
-          Política de Tratamiento de Información<br>
-          <br>
-          Política de Acceso y Uso<br>
-          <br>
-          Términos Legales Promociones<br>
-          <br>
-          Terminos Legales Bonos o Producto de Fidelización<br>
-          <br>
-          Términos Legales Pagos en Línea<br>
-          <br>
-          Prevención Fraude Electrónico<br>
-      </p>
-      <p>
-          Sastisfación de Clientes<br>
-          <br>
-          <a href="">Contacto</a><br>
-          <br>
-          <a href="">WhatsApp</a><br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-      </p>
-      <p>Carrera 112a #68b-17
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-      </p>
-      <div class="copi">
+    </div>
+  </section>
+  <footer>
+    <div id="l-footer">
+      <i class='bx bxs-pizza footer1'></i>
+      <h1 class="footer1">Delipizza</h1>
+    </div>
+    <p>Aviso Legal
+      Política de Tratamiento de Información<br>
+      <br>
+      Política de Acceso y Uso<br>
+      <br>
+      Términos Legales Promociones<br>
+      <br>
+      Terminos Legales Bonos o Producto de Fidelización<br>
+      <br>
+      Términos Legales Pagos en Línea<br>
+      <br>
+      Prevención Fraude Electrónico<br>
+    </p>
+    <p>
+      Sastisfación de Clientes<br>
+      <br>
+      <a href="">Contacto</a><br>
+      <br>
+      <a href="">WhatsApp</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </p>
+    <p>Carrera 112a #68b-17
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </p>
+    <div class="copi">
       <div>
-          <p class="texf">Copyright © Delipizza 2023 Todos los derechos reservados</p> 
+        <p class="texf">Copyright © Delipizza 2023 Todos los derechos reservados</p>
       </div>
       <img src="img/Facebook.png" alt="" style="margin-left: 10%;">
       <img src="img/Instagram.jpg" alt="">
       <img src="img/Twiter.png" alt="">
-      </div>
+    </div>
   </footer>
-  </body>
+</body>
+
 </html>
