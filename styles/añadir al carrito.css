@@ -1,0 +1,90 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+header{
+    background-color:var(--theme-ui-colors-primary,#ff671b);
+    height: 82px;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: darkgreen;
+}
+h1{
+    width: max-content;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:21px ;
+}
+a{
+    color: white;
+}
+img{
+    width:200px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+    display: flexbox;
+}
+h2{
+    padding: 20px;
+}
+.pago{
+    background-color: gainsboro;
+    margin-top: 260px;
+    border-radius: 10px;
+    width:37% ;
+    float: left;
+    text-align: center;
+    box-shadow: rgb(240, 239, 239) 5px 5px;
+}
+button{
+    background-color: gainsboro;
+    border: 0;
+}
+a img{
+    width: 50px;
+}
+.Pedidos{
+    background-color: gainsboro;
+    margin-top: 260px;
+    border-radius: 10px;
+    width: 60%;
+    float: right;
+    box-shadow: rgb(240, 239, 239) 5px 5px;
+
+}
+p{
+  display: inline-block;
+  vertical-align:top;
+  margin-top: 60px;
+  margin-left: 10% ;
+}
+h3{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+.final_compra{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+.t{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
